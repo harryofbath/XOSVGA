@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name xosvp)(type Legacy)(uri ${KIPRJMOD}/xosvp.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "xosvp")(type "KiCad")(uri "${KIPRJMOD}/xosvp.kicad_sym")(options "")(descr ""))
 )
