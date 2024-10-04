@@ -2372,6 +2372,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 35.56) (xy 209.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4479747c-92b6-44c0-88e3-f01fe2d204bb")
+	)
+	(wire
+		(pts
 			(xy 68.58 27.94) (xy 68.58 33.02)
 		)
 		(stroke
@@ -2429,6 +2439,16 @@
 			(type default)
 		)
 		(uuid "4cd28c12-4d2d-4cc1-99c9-edb0c5814d35")
+	)
+	(wire
+		(pts
+			(xy 203.2 44.45) (xy 201.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2c1920-aedd-4039-88e4-c855836d2402")
 	)
 	(wire
 		(pts
@@ -2722,6 +2742,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 44.45) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b339a1-bb49-462e-9625-72f4b44bd400")
+	)
+	(wire
+		(pts
 			(xy 53.34 35.56) (xy 24.13 35.56)
 		)
 		(stroke
@@ -2939,6 +2969,16 @@
 			(type default)
 		)
 		(uuid "eebfa07e-b51e-442e-947b-2be87720ad64")
+	)
+	(wire
+		(pts
+			(xy 212.09 44.45) (xy 210.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef94ca50-e83b-464d-897b-b7eb13ae47e8")
 	)
 	(wire
 		(pts
@@ -3246,7 +3286,7 @@
 	)
 	(global_label "H_SYNC"
 		(shape input)
-		(at 201.93 38.1 0)
+		(at 212.09 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3256,7 +3296,7 @@
 		)
 		(uuid "66f07f97-2fdb-4f87-9fc9-8252bc59f637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4577 38.1 0)
+			(at 221.6177 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3414,7 @@
 	)
 	(global_label "V_SYNC"
 		(shape input)
-		(at 201.93 35.56 0)
+		(at 210.82 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3384,7 +3424,7 @@
 		)
 		(uuid "a5824b75-293e-4809-8434-d16135547fd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.2158 35.56 0)
+			(at 220.1058 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,6 +6074,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 207.01 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8a8cb9c-425f-46fc-8be8-0ad643a8fb76")
+		(property "Reference" "R9"
+			(at 211.074 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 207.01 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.01 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88e88b92-c5b5-4965-abd0-0a5d0252cfbd")
+		)
+		(pin "1"
+			(uuid "25bb547e-6f1b-415b-8bdc-9752dde312f9")
+		)
+		(instances
+			(project ""
+				(path "/d9a19927-f308-4041-9bbb-5c98bd6ebd55"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 38.1 0)
 		(unit 1)
@@ -6338,6 +6445,73 @@
 			(project "xosvp"
 				(path "/d9a19927-f308-4041-9bbb-5c98bd6ebd55"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2969c7d-be51-4685-8eb3-7273e39cccae")
+		(property "Reference" "R10"
+			(at 211.074 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 205.486 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 205.74 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f79affe1-19a4-4490-8264-ef9a4d99991a")
+		)
+		(pin "1"
+			(uuid "f29cf53e-7e9c-49fa-90cc-0b37eef1d79b")
+		)
+		(instances
+			(project "xosvp"
+				(path "/d9a19927-f308-4041-9bbb-5c98bd6ebd55"
+					(reference "R10")
 					(unit 1)
 				)
 			)

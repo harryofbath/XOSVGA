@@ -58,7 +58,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|40565000|30100000|7b8f6f63-661a-41f2-8bd0-2cc061caee40|041b3ada-5427-4ad7-8271-f4d28d3e479c",
+        "clearance|42865000|30100000|34d63652-eae6-4c86-ae05-161c35f67d61|7b8f6f63-661a-41f2-8bd0-2cc061caee40",
+        "clearance|45165000|30100000|34d63652-eae6-4c86-ae05-161c35f67d61|0e535f0c-b6c1-41c6-9007-7285739bea50",
+        "solder_mask_bridge|32165099|58382900|d4293f27-495d-4533-a94e-84b6f37994f2|33a68e82-9135-4dc9-bbc9-eb973a3e5ba9",
+        "solder_mask_bridge|32665101|58382900|33a68e82-9135-4dc9-bbc9-eb973a3e5ba9|debb8ff4-4013-41e7-8c3f-07fdae9f9af2",
+        "solder_mask_bridge|33165100|58382900|debb8ff4-4013-41e7-8c3f-07fdae9f9af2|94fa84f4-e5f0-4408-b2e0-57af6fb56827",
+        "solder_mask_bridge|33334899|53988700|d94007ab-f272-4278-9419-f527077206fd|3c94aa27-8270-45cb-83b9-2aed34a6d209",
+        "solder_mask_bridge|33665099|58382900|94fa84f4-e5f0-4408-b2e0-57af6fb56827|6a28b665-447e-4f8c-b767-b5b951898fc0",
+        "solder_mask_bridge|33834901|53988700|02bca622-f054-404c-ba1c-073ca1cfb863|d94007ab-f272-4278-9419-f527077206fd"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -183,7 +193,9 @@
         0.127,
         0.25,
         0.3,
+        0.5,
         1.0,
+        1.28,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -209,7 +221,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 1.0
         }
       },
       "via_dimensions": [
